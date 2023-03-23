@@ -43,8 +43,7 @@ Start the server
   npm start
   
   
-  
-  ## API Reference
+## API Reference
 
 #### RegisterLand
 
@@ -67,11 +66,11 @@ Start the server
 #### Get item
 
 ```http
-  GET /api/items/${id}
+  POST http://localhost:9600/getLandRecordDetailsByID
 ```
 
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
-| `id`      | `string` | **Required**. Id of item to fetch |
+| `landRegID`      | `number` | **Required**. Land registration number |
 
-#### add(num1, num2)
+
